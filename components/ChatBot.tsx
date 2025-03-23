@@ -15,10 +15,6 @@ import {
   FormItem,
   FormMessage,
 } from "@/components/ui/form";
-import { z } from "zod";
-import { zodResolver } from "@hookform/resolvers/zod";
-import { useForm } from "react-hook-form";
-import Link from "next/link";
 
 export default function AIChatBot() {
   const [open, setOpen] = useState(false);
